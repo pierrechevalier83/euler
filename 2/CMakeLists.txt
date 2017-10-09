@@ -1,0 +1,2 @@
+add_executable(even_fibonacci_numbers src/main.cpp)
+target_link_libraries(even_fibonacci_numbers range-v3)

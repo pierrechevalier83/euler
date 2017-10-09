@@ -15,3 +15,4 @@ set_property(TARGET range-v3
 
 
 add_subdirectory(1)
+add_subdirectory(2)
