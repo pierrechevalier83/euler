@@ -13,6 +13,8 @@ set_property(TARGET range-v3
     INTERFACE_INCLUDE_DIRECTORIES ${range-v3_INCLUDE_DIR}
 )
 
+find_package(Boost)
 
 add_subdirectory(1)
 add_subdirectory(2)
+add_subdirectory(3)
