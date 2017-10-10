@@ -7,18 +7,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 #include <boost/algorithm/is_palindrome.hpp>
 #include <iostream>
 #include <range/v3/view.hpp>
-
-int ipow(int base, int exp) {
-  int result = 1;
-  while (exp) {
-    if (exp & 1) {
-      result *= base;
-    }
-    exp >>= 1;
-    base *= base;
-  }
-  return result;
-}
+#include <ipow.h>
 
 template <int order> auto max_n_digit_number() { return ipow(10, order) - 1; }
 template <int order> auto min_n_digit_number() { return ipow(10, order - 1); }
