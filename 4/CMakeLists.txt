@@ -1,0 +1,2 @@
+add_executable(largest_palindrome_product src/main.cpp)
+target_link_libraries(largest_palindrome_product range-v3)
