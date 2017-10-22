@@ -1,0 +1,2 @@
+add_executable(pythagorean_triplets src/main.cpp)
+target_link_libraries(pythagorean_triplets range-v3)
